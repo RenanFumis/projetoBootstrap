@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./img/japao.png" type="image/x-icon">
+  <title>Exercicio com BootStrap</title>
+</head>
+
+<body>
+
+  <style>
+    .nav-link:hover {
+      color: #ffffff !important;
+    }
+
+    img {
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  </style>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid container">
+
+      <h1 class="navbar-brand me-auto text-white-50 fs-2">Start Bootstrap</h1>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white-50 fs-4 " aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white-50 fs-4" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50 fs-4" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50 fs-4" href="#">Contato</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row ">
+
+      <div class="col-md-3 mt-5">
+        <h1 class="fs-1 col-1">Shop Name</h1>
+        <div class="card" style="width: 18rem;">
+          <div class="list-group list-group-flush">
+            <button class="list-group-item btn btn-dark" href="#">Camisas</button>
+            <button class="list-group-item btn btn-dark" href="#">Canecas</button>
+            <button class="list-group-item btn btn-dark" href="#">Funko Pop</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/OnePiece.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/myHeroAcademy.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/CowboyBebop.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-around">
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./img/samuraiX.jpg" class="card-img-top ajuste" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Samurai X</h5>
+                  <p class="card-text">A história se passa durante a era Meiji no Japão e segue um ex-assassino chamado
+                    Kenshin Himura, que decide abandonar sua vida violenta para buscar a redenção como um andarilho
+                    pacífico. Kenshin carrega uma lâmina invertida, simbolizando seu compromisso de não matar mais.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Lançado em 1994</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 ">
+                <img src="./img/dragonBallZ.jpg" class="card-img-top ajuste " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dragon Ball Z</h5>
+                  <p class="card-text">Após os eventos de "Dragon Ball", Goku se casa com Chi-Chi e tem um filho chamado
+                    Gohan. A paz na Terra é interrompida quando um guerreiro alienígena chamado Raditz aparece,
+                    revelando que Goku é, na verdade, um saiyajin, uma raça guerreira poderosa. Goku sacrifica sua vida
+                    para derrotar Raditz.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Lançado em 1989</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./img/afroSamurai.jpg" class="card-img-top h-25 ajuste" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">A história se passa em um mundo pós-futurista misturado com elementos
+                    tradicionais japoneses. O personagem principal é chamado apenas de Afro Samurai. Ele testemunha a
+                    morte de seu pai, que foi derrotado por um guerreiro chamado Justice, que buscava a Bandana Número
+                    Um, um artefato que concede ao seu dono o título de Deus Guerreiro. Afro, motivado pelo desejo de
+                    vingança, decide se tornar o número dois e enfrentar Justice.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Lançado em 2007</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pt-5">
+    <div class="bg-dark p-4">
+      <footer class="text-center  text-white-50 fs-4">Desenvolvido por Renan Fumis</footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
